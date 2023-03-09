@@ -52,6 +52,7 @@ public class Main {
      System.out.println();
 
 //조건문 
+    //홀짝 판별
     int d=99;
     if(d % 2 == 1) {
       System.out.println("홀수");
@@ -60,5 +61,18 @@ public class Main {
      System.out.println("짝수"); 
      System.out.println();
     }
+
+     //구구단
+	   int e=0,f=0;
+	   for(e=2;e<=9;e++) {
+		   for(f=1;f<10;f++){
+//	    System.out.print(e);		
+//	    System.out.print("*");
+//	    System.out.print(f);	
+//	    System.out.print("=");	
+		System.out.println(e+"*"+f+"="+e*f);	   
+   }
   }
+ } 
 }
+  
